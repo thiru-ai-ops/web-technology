@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>JavaScript Number Operations</title> 
+</head> 
+<body> 
+ 
+    <h1>JavaScript Number Operations</h1> 
+    <script> 
+        var num = 1234.56789; 
+        // Find exponential value 
+        var exponentialValue = num.toExponential(2); 
+        // Limit decimal places 
+        var fixedDecimal = num.toFixed(3); 
+        // Convert number to string 
+        var numberToString = num.toString(); 
+        // Return negative infinity 
+        var negativeInfinity = Number.NEGATIVE_INFINITY; 
+        // Display outputs 
+        document.write("<h3>Exponential Value (2 digits): " + exponentialValue + "</h3>"); 
+        document.write("<h3>Fixed Decimal (3 places): " + fixedDecimal + "</h3>"); 
+        document.write("<h3>Number to String: " + numberToString + "</h3>"); 
+        document.write("<h3>Negative Infinity: " + negativeInfinity + "</h3>"); 
+    </script> 
+</body> 
+</html> 
