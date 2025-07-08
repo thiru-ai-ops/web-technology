@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Organized Elements with Class Selectors</title>
+    <link rel="stylesheet" href="experiment 6.styles.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Welcome to Our Web Page</h1>
+        <p class="subtitle">An example of using class selectors with external CSS</p>
+    </div>
+
+    <div class="content">
+        <h2 class="section-title">About Us</h2>
+        <p class="text">We are a team of developers passionate about creating beautiful and functional websites.</p>
+    </div>
+
+    <div class="features">
+        <h2 class="section-title">Features</h2>
+        <ul class="feature-list">
+            <li class="feature-item">Responsive Design</li>
+            <li class="feature-item">Clean Code</li>
+            <li class="feature-item">User Friendly</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p class="footer-text">&copy; 2025 All Rights Reserved</p>
+    </div>
+
+</body>
+</html>
