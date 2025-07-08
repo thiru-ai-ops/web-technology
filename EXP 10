@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Background GIF with CSS</title> 
+    <style> 
+        body { 
+            margin: 0; 
+            padding: 0; 
+            height: 100vh; 
+        } 
+ 
+        .background-container { 
+            background-image: url('your-gif.gif'); /* Use the path to your GIF file */ 
+            background-size: cover; /* Make the background cover the entire screen */ 
+            background-position: center; 
+            height: 100vh; 
+            width: 100%; 
+            transition: opacity 2s ease-in-out; /* Smooth transition for opacity */ 
+            opacity: 0.7; /* Initial transparency */ 
+        } 
+        /* On hover, change the transparency */ 
+        .background-container:hover { 
+            opacity: 1; /* Full opacity on hover */ 
+        } 
+    </style> 
+</head> 
+<body> 
+16  
+    <div class="background-container"> 
+        <!-- You can add content here if you wish --> 
+        <h1 style="color: white; text-align: center; padding-top: 40%;">Welcome to the Animated 
+Background!</h1> 
+    </div> 
+</body> 
+</html> 
