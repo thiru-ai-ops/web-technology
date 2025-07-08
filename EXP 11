@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Picture Slider with Radio Buttons</title> 
+    <style> 
+        .slider { 
+            width: 500px; 
+            height: 300px; 
+            position: relative; 
+            overflow: hidden; 
+        } 
+        .slides { 
+            display: flex; 
+            width: 200%; 
+            transition: transform 1s ease; 
+        } 
+        input[type=radio] { 
+            display: none; 
+        } 
+        .slide { 
+            width: 500px; 
+17  
+            height: 300px; 
+            flex-shrink: 0; 
+        } 
+        #radio1:checked ~ .slides { 
+            transform: translateX(0%); 
+        } 
+        #radio2:checked ~ .slides { 
+            transform: translateX(-50%); 
+        } 
+        .navigation-manual { 
+            text-align: center; 
+            margin-top: 10px; 
+        } 
+        .manual-btn { 
+            display: inline-block; 
+            padding: 10px; 
+            border: 2px solid #ccc; 
+            cursor: pointer; 
+            margin: 0 5px; 
+        } 
+    </style> 
+</head> 
+<body> 
+<h2>Image Slider with Radio Buttons</h2> 
+<div class="slider"> 
+    <input type="radio" name="radio-btn" id="radio1" checked> 
+    <input type="radio" name="radio-btn" id="radio2"> 
+    <div class="slides"> 
+        <div class="slide"> 
+            <img src="https://via.placeholder.com/500x300?text=Image+1" width="500" height="300"> 
+        </div> 
+        <div class="slide"> 
+            <img src="https://via.placeholder.com/500x300?text=Image+2" width="500" height="300"> 
+        </div> 
+    </div> 
+    <div class="navigation-manual"> 
+        <label for="radio1" class="manual-btn">Image 1</label> 
+        <label for="radio2" class="manual-btn">Image 2</label> 
+    </div> 
+</div> 
+</body> 
+</html> 
