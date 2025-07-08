@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Float Positioning Example</title>
+    <link rel="stylesheet" type="ex7.css" href="style.css">
+</head>
+<body>
+
+    <div class="box-left">
+        <h2>Left Box</h2>
+        <p>This box floats to the left side.</p>
+    </div>
+
+    <div class="box-right">
+        <h2>Right Box</h2>
+        <p>This box floats to the right side.</p>
+    </div>
+
+</body>
+</html>
